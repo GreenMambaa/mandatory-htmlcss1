@@ -1,0 +1,268 @@
+/* -------------------------  HEADER ------------------------ */
+.topSmallBox {
+    width: 100%;
+    text-decoration: none;
+}
+
+.topSmallBox a {
+    text-decoration: none;
+    color: rgb(13, 24, 175);
+}
+
+.topTopFacebook {
+    margin-left: 10%;
+}
+
+.topTopEmail {
+    margin-left: 60%;
+}
+
+.navbarBox {
+    width: 100%;
+}
+
+.navbarBox ul {
+    width: 100%;
+    float:left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 119, 179);
+}
+
+.navbarBox ul li:first-child {
+    margin-left: 30%;
+}
+
+.navbarBox ul li {
+    float:left;
+    height: 100%;
+    padding-right: 3%;
+}
+
+.navbarBox ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbarBox ul li:hover {
+    background-color: rgb(25, 65, 102);
+}
+
+.navbarBox #Active {
+    background-color: rgb(25, 65, 102);
+}
+
+/* -------------------------  PAGE-Index ------------------------ */
+
+.indexSection .indexRubrik {
+    padding-left: 30%;
+    font-size: 4em;
+}
+
+.indexSection p {
+    padding-bottom: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* -------------------------  PAGE-About ------------------------ */
+
+.profilePicture {
+    margin-top: 10vh;
+    height: 50vh;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.name {
+    padding-left: 25%;
+    font-size: 4em;
+}
+
+.aboutSection p {
+    padding-bottom: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* -------------------------  PAGE-Movies ------------------------ */
+
+.movieSection .movieRubrik {
+    padding-left: 35%;
+    padding-top: 15vh;
+    font-size: 3em;
+}
+
+.movieSection img {
+    height: 30vh;
+    width: 100%;
+}
+
+.movieSection .row1 {
+    display: grid;
+    grid-template-columns: 25% 20% 15% 15% 15%;
+    width: 70%;
+    margin-left: 20%;
+    background-color: rgb(180, 33, 160);
+    position: relative;
+}
+
+.movieSection .row2 {
+    display: grid;
+    grid-template-columns: 25% 20% 15% 15% 15%;
+    width: 70%;
+    margin-left: 20%;
+    background-color: rgb(10, 10, 97);
+    position: relative;
+}
+
+.movieSection .row3 {
+    display: grid;
+    grid-template-columns: 25% 20% 15% 15% 15%;
+    width: 70%;
+    margin-left: 20%;
+    background-color: rgb(41, 148, 41);
+    position: relative;
+}
+
+.movieSection .row4 {
+    display: grid;
+    grid-template-columns: 25% 20% 15% 15% 15%;
+    width: 70%;
+    margin-left: 20%;
+    background-color: rgb(218, 218, 13);
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.movieSection h4 {
+    font-size: 3em;
+    color: rgb(175, 145, 9);
+}
+
+.movieSection .triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 280px solid white;
+    border-left: 280px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* -------------------------  PAGE-Links ------------------------ */
+
+.linkSection .linksRubrik {
+    padding-left: 35%;
+    padding-top: 15vh;
+    font-size: 2em;
+}
+
+.linkSection .linksLista1 {
+    padding-left: 35%;
+    padding-bottom: 15vh;
+    list-style: none;
+}
+
+.linkSection .linksLista2 {
+    list-style: none;
+}
+
+.linkSection .linksLista2 a {
+    text-decoration: none;
+    color: rgb(13, 24, 175);
+}
+
+/* -------------------------  PAGE-Contact ------------------------ */
+
+.contactSection h5 {
+    padding-left: 40%;
+    margin-top: 7%;
+    font-size: 2.5em;
+}
+
+.contactSection label {
+    margin-left: 40%;
+}
+
+.contactSection input {
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 2vh;
+}
+
+.contactSection select {
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 2vh;
+}
+
+.contactSection textarea {
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 2vh;
+}
+
+/* -------------------------  FOOTER ------------------------ */
+
+footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.footerUpBox {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+footer .upBoxText {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    padding-top: 3vh;
+}
+
+.upBoxIcon {
+    font-size: 1.8em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3vh;
+    margin-top: 1vh;
+}
+
+.footerMiddleBox {
+    height: 30vh;
+    background-color:#4b4d50;
+}
+
+.footerDownBox {
+    height: 12vh;
+    width: 100%;
+    background-color:#2d2e30;
+    text-align: center;
+    padding-top: 14vh;
+}
+
+footer .firstPart {
+    display: inline;
+    padding-top: 14vh;
+}
+
+footer .secondPart {
+    display: inline;
+    padding-left: 7px;
+    padding-top: 14vh;
+    color:rgb(8, 103, 255);
+}
